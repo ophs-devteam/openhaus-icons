@@ -1,0 +1,23 @@
+{
+  "name": "ophs-icons",
+  "version": "1.1.0",
+  "description": "Icon set for Openhaus",
+  "main": "index.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anup22ohin/openhaus-icons.git"
+  },
+  "keywords": [
+    "Icons",
+    "Openhaus"
+  ],
+  "author": "Devteam OpenHaus.in",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anup22ohin/openhaus-icons/issues"
+  },
+  "homepage": "https://github.com/anup22ohin/openhaus-icons#readme"
+}
