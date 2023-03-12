@@ -1,6 +1,6 @@
 {
   "name": "ophs-icons",
-  "version": "1.2.02",
+  "version": "1.2.3",
   "description": "Icon set for Openhaus",
   "main": "index.css",
   "scripts": {
