@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'ophsIcon';
   src:
-    url('fonts/ophsIcon.ttf?4f7r8o') format('truetype'),
-    url('fonts/ophsIcon.woff?4f7r8o') format('woff'),
-    url('fonts/ophsIcon.svg?4f7r8o#ophsIcon') format('svg');
+    url('fonts/ophsIcon.ttf?y11hjt') format('truetype'),
+    url('fonts/ophsIcon.woff?y11hjt') format('woff'),
+    url('fonts/ophsIcon.svg?y11hjt#ophsIcon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -24,6 +24,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-call:before {
+  content: "\e94f";
+}
+.icon-invoice-alt:before {
+  content: "\e950";
+}
+.icon-share:before {
+  content: "\e951";
+}
 .icon-close_light:before {
   content: "\e946";
 }
