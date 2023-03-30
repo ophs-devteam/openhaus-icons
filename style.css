@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'ophsIcon';
   src:
-    url('fonts/ophsIcon.ttf?y11hjt') format('truetype'),
-    url('fonts/ophsIcon.woff?y11hjt') format('woff'),
-    url('fonts/ophsIcon.svg?y11hjt#ophsIcon') format('svg');
+    url('fonts/ophsIcon.ttf?o94icx') format('truetype'),
+    url('fonts/ophsIcon.woff?o94icx') format('woff'),
+    url('fonts/ophsIcon.svg?o94icx#ophsIcon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -24,17 +24,29 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-call:before {
-  content: "\e94f";
+.icon-add_photo:before {
+  content: "\e952";
 }
-.icon-invoice-alt:before {
-  content: "\e950";
+.icon-edit:before {
+  content: "\e953";
 }
-.icon-share:before {
-  content: "\e951";
+.icon-clock:before {
+  content: "\e954";
 }
-.icon-close_light:before {
-  content: "\e946";
+.icon-star_user:before {
+  content: "\e955";
+}
+.icon-buildings:before {
+  content: "\e956";
+}
+.icon-footstep:before {
+  content: "\e957";
+}
+.icon-refresh:before {
+  content: "\e958";
+}
+.icon-sendto:before {
+  content: "\e959";
 }
 .icon-360view:before {
   content: "\e94d";
@@ -56,6 +68,18 @@
 }
 .icon-location_pin:before {
   content: "\e94c";
+}
+.icon-call:before {
+  content: "\e94f";
+}
+.icon-invoice-alt:before {
+  content: "\e950";
+}
+.icon-share:before {
+  content: "\e951";
+}
+.icon-close_light:before {
+  content: "\e946";
 }
 .icon-alternate_email:before {
   content: "\e900";

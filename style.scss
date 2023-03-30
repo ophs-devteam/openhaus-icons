@@ -3,9 +3,9 @@
 @font-face {
   font-family: '#{$icomoon-font-family}';
   src:
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?y11hjt') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?y11hjt') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?y11hjt##{$icomoon-font-family}') format('svg');
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?o94icx') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?o94icx') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?o94icx##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -26,24 +26,44 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-call {
+.icon-add_photo {
   &:before {
-    content: $icon-call; 
+    content: $icon-add_photo; 
   }
 }
-.icon-invoice-alt {
+.icon-edit {
   &:before {
-    content: $icon-invoice-alt; 
+    content: $icon-edit; 
   }
 }
-.icon-share {
+.icon-clock {
   &:before {
-    content: $icon-share; 
+    content: $icon-clock; 
   }
 }
-.icon-close_light {
+.icon-star_user {
   &:before {
-    content: $icon-close_light; 
+    content: $icon-star_user; 
+  }
+}
+.icon-buildings {
+  &:before {
+    content: $icon-buildings; 
+  }
+}
+.icon-footstep {
+  &:before {
+    content: $icon-footstep; 
+  }
+}
+.icon-refresh {
+  &:before {
+    content: $icon-refresh; 
+  }
+}
+.icon-sendto {
+  &:before {
+    content: $icon-sendto; 
   }
 }
 .icon-360view {
@@ -79,6 +99,26 @@
 .icon-location_pin {
   &:before {
     content: $icon-location_pin; 
+  }
+}
+.icon-call {
+  &:before {
+    content: $icon-call; 
+  }
+}
+.icon-invoice-alt {
+  &:before {
+    content: $icon-invoice-alt; 
+  }
+}
+.icon-share {
+  &:before {
+    content: $icon-share; 
+  }
+}
+.icon-close_light {
+  &:before {
+    content: $icon-close_light; 
   }
 }
 .icon-alternate_email {
