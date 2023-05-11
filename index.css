@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'ophsIcon';
   src:
-    url('fonts/ophsIcon.ttf?o94icx') format('truetype'),
-    url('fonts/ophsIcon.woff?o94icx') format('woff'),
-    url('fonts/ophsIcon.svg?o94icx#ophsIcon') format('svg');
+    url('fonts/ophsIcon.ttf?ruppin') format('truetype'),
+    url('fonts/ophsIcon.woff?ruppin') format('woff'),
+    url('fonts/ophsIcon.svg?ruppin#ophsIcon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -24,6 +24,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-book_visit:before {
+  content: "\e95b";
+}
+.icon-analytics:before {
+  content: "\e95a";
+}
+.icon-single_project:before {
+  content: "\e95c";
+}
+.icon-phone_dial:before {
+  content: "\e95d";
+}
 .icon-add_photo:before {
   content: "\e952";
 }

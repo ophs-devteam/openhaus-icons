@@ -3,9 +3,9 @@
 @font-face {
   font-family: '#{$icomoon-font-family}';
   src:
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?o94icx') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?o94icx') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?o94icx##{$icomoon-font-family}') format('svg');
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?ruppin') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?ruppin') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?ruppin##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -26,6 +26,26 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-book_visit {
+  &:before {
+    content: $icon-book_visit; 
+  }
+}
+.icon-analytics {
+  &:before {
+    content: $icon-analytics; 
+  }
+}
+.icon-single_project {
+  &:before {
+    content: $icon-single_project; 
+  }
+}
+.icon-phone_dial {
+  &:before {
+    content: $icon-phone_dial; 
+  }
+}
 .icon-add_photo {
   &:before {
     content: $icon-add_photo; 
