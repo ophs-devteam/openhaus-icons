@@ -3,9 +3,9 @@
 @font-face {
   font-family: '#{$icomoon-font-family}';
   src:
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?ruppin') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?ruppin') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?ruppin##{$icomoon-font-family}') format('svg');
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?bpbsz4') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?bpbsz4') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?bpbsz4##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -26,6 +26,16 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-arrow-long-left {
+  &:before {
+    content: $icon-arrow-long-left; 
+  }
+}
+.icon-arrow-long-right {
+  &:before {
+    content: $icon-arrow-long-right; 
+  }
+}
 .icon-book_visit {
   &:before {
     content: $icon-book_visit; 
@@ -489,11 +499,6 @@
 .icon-zen-garden {
   &:before {
     content: $icon-zen-garden; 
-  }
-}
-.icon-eye {
-  &:before {
-    content: $icon-eye; 
   }
 }
 
